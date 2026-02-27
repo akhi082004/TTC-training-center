@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TTC - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="showDateTime()">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">TTC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.google.com" target="_blank">External Link</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Date & Time -->
+<div class="text-center p-2 bg-light">
+    <span id="datetime"></span>
+</div>
+
+<!-- Banner Carousel -->
+<div id="banner" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/image1.jpg" class="d-block w-100 banner-img">
+        </div>
+        <div class="carousel-item">
+            <img src="img/image2.jpg" class="d-block w-100 banner-img">
+        </div>
+        <div class="carousel-item">
+            <img src="img/image3.jpg" class="d-block w-100 banner-img">
+        </div>
+    </div>
+</div>
+
+<!-- TTC Details -->
+<div class="container mt-5">
+    <h2 class="text-center">TTC Training Center</h2>
+    <p class="text-center">We provide professional IT and technical training designed for students,
+	fresh graduates, and working professionals 
+	who want to build strong practical skills and advance their careers in today’s competitive job market.
+
+Our Technical Training Center (TTC) focuses on industry-oriented learning, where theory is combined
+ with real-world projects and hands-on practice. All courses are designed following current market demand,
+ ensuring learners gain job-ready skills.</p>
+</div>
+
+<!-- Trainer Profile -->
+<div class="container mt-4">
+    <h3 class="text-center mb-4">Trainer Profile</h3>
+    <div class="row">
+
+        <!-- Trainer 1 -->
+        <div class="col-md-4 text-center">
+            <img src="img/download (2).jpg" class="profile-img mb-2">
+            <h5>John Smith</h5>
+            <p>Senior Web Developer</p>
+        </div>
+
+        <!-- Trainer 2 -->
+        <div class="col-md-4 text-center">
+            <img src="img/images6.jpg" class="profile-img mb-2">
+            <h5>Sarah Johnson</h5>
+            <p>Software Engineer</p>
+        </div>
+
+        <!-- Trainer 3 -->
+        <div class="col-md-4 text-center">
+            <img src="img/download (3).jpg" class="profile-img mb-2">
+            <h5>Michael Brown</h5>
+            <p>Database & Backend Specialist</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- Students Feedback -->
+<div class="container mt-4">
+    <h3 class="text-center mb-4">Student Feedback</h3>
+
+    <div class="row">
+        <!-- Feedback 1 -->
+        <div class="col-md-4">
+            <div class="card p-3 mb-3">
+                <p>"Excellent training experience! The trainers are very supportive and explain every topic clearly."</p>
+                <h6 class="mt-2 mb-0">— Rahim Ahmed</h6>
+                <small class="text-muted">Web Development Student</small>
+            </div>
+        </div>
+
+        <!-- Feedback 2 -->
+        <div class="col-md-4">
+            <div class="card p-3 mb-3">
+                <p>"Practical-based learning helped me gain confidence. The project work was very useful."</p>
+                <h6 class="mt-2 mb-0">— Nusrat Jahan</h6>
+                <small class="text-muted">Software Engineering Trainee</small>
+            </div>
+        </div>
+
+        <!-- Feedback 3 -->
+        <div class="col-md-4">
+            <div class="card p-3 mb-3">
+                <p>"Friendly environment and industry-focused courses. Highly recommended for beginners."</p>
+                <h6 class="mt-2 mb-0">— Imran Hossain</h6>
+                <small class="text-muted">Database Management Student</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Gallery -->
+<div class="container mt-4 mb-5">
+    <h3 class="text-center">Gallery</h3>
+    <div class="row">
+        <div class="col-md-4"><img src="img/download.jpg" class="gallery-img"></div>
+        <div class="col-md-4"><img src="img/images.jpg" class="gallery-img"></div>
+        <div class="col-md-4"><img src="img/images4.jpg" class="gallery-img"></div>
+        <div class="col-md-4"><img src="img/download (1).jpg" class="gallery-img"></div>
+        <div class="col-md-4"><img src="img/images 5.jpg" class="gallery-img"></div>
+        <div class="col-md-4"><img src="img/images6.jpg" class="gallery-img"></div>
+    </div>
+</div>
+
+<!-- TTC Members Unordered List -->
+<div class="container mb-5">
+    <h3>TTC Members</h3>
+    <ul class="ttc-list">
+        <li>Web Development</li>
+        <li>Graphic Design</li>
+        <li>Digital Marketing</li>
+        <li>Networking</li>
+    </ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
